@@ -55,6 +55,6 @@ for i in range(6):
     plt.imshow(example_data[i][0], cmap='Blues', interpolation='none')
     plt.title("Ground Truth: {}".format(example_target[i]))
     plt.xticks([])
-    plt.yticks([])    
+    plt.yticks([])  
+    plt.savefig(f'./mnist_result/torch/DataExampleWithGroundTruth.png')  
 plt.show()
-
