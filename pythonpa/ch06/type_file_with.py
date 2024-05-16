@@ -1,0 +1,7 @@
+import sys            				#导入模块
+filename = sys.argv[0]  				#所读取并输出的即本程序文件
+line_no=0       					#统计行号
+with open(filename, 'r', encoding='utf8') as f:	#使用with语句实现上下文管理协议
+    for line in f:
+        line_no += 1          		#行号计数
+        print(line_no, ":", line)  		#输出行号和该行内容
