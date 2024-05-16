@@ -1,0 +1,26 @@
+<annotation>
+	<folder>test</folder>
+	<filename>335.JPEG</filename>
+	<path>/Users/macbook/Desktop/PythonClass/4th Class/drone/test/335.JPEG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>450</width>
+		<height>292</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>drone</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>147</xmin>
+			<ymin>68</ymin>
+			<xmax>252</xmax>
+			<ymax>129</ymax>
+		</bndbox>
+	</object>
+</annotation>

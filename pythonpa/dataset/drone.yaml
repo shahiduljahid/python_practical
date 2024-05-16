@@ -1,4 +1,4 @@
-path : C:\Users\ADMIN\Desktop\Python_practical\pythonpa\dataset\drone
+path : /Users/macbook/Desktop/python_practical/pythonpa/dataset/drone
 train : train
 val : train
 test : test

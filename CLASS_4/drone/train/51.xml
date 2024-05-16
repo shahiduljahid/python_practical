@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>51.JPEG</filename>
+	<path>/Users/macbook/Desktop/PythonClass/4th Class/drone/train/51.JPEG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>900</width>
+		<height>547</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>drone</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>213</xmin>
+			<ymin>44</ymin>
+			<xmax>889</xmax>
+			<ymax>419</ymax>
+		</bndbox>
+	</object>
+</annotation>

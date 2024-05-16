@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>185.JPEG</filename>
+	<path>C:\Users\Jahid\Desktop\PY_CLASS\CLASS_4\drone\train\185.JPEG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>770</width>
+		<height>578</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>drone</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>164</xmin>
+			<ymin>161</ymin>
+			<xmax>578</xmax>
+			<ymax>391</ymax>
+		</bndbox>
+	</object>
+</annotation>

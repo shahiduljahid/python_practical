@@ -1,0 +1,7 @@
+path : /Users/macbook/Desktop/python_practical/CLASS_4/drone
+train : train
+val : train
+test : test
+
+names:
+  0: drone
