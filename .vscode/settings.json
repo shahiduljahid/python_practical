@@ -1,5 +1,13 @@
 {
-  "cSpell.words": ["AUTOTUNE", "cmap", "imshow", "tfds", "torchvision"],
+  "cSpell.words": [
+    "AUTOTUNE",
+    "cmap",
+    "imshow",
+    "optim",
+    "relu",
+    "tfds",
+    "torchvision"
+  ],
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true
 }
