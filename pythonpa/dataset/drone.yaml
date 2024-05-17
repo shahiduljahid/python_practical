@@ -1,7 +1,7 @@
-path : /Users/macbook/Desktop/python_practical/pythonpa/dataset/drone
-train : train
-val : train
-test : test
+path: C:\Users\ADMIN\Desktop\Python_practical\pythonpa\dataset\drone
+train: train
+val: train
+test: test
 
 names:
   0: drone
