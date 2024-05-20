@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<annotation><filename>banana_24.jpg</filename><size><width>640</width><height>480</height><depth>3</depth></size><object><name>banana</name><bndbox><xmin>103</xmin><ymin>202</ymin><xmax>490</xmax><ymax>459</ymax></bndbox></object></annotation>

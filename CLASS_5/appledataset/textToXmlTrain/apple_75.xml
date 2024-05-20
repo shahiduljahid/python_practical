@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<annotation><filename>apple_75.jpg</filename><size><width>640</width><height>480</height><depth>3</depth></size><object><name>apple</name><bndbox><xmin>11</xmin><ymin>51</ymin><xmax>633</xmax><ymax>456</ymax></bndbox></object></annotation>
