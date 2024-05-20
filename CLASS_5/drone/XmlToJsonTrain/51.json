@@ -1,0 +1,14 @@
+{
+    "filename": "51.jpg",
+    "width": 640,
+    "height": 480,
+    "objects": [
+        {
+            "class_name": "0",
+            "x_center": 0.5609375,
+            "y_center": 0.48333333333333334,
+            "width": 0.63125,
+            "height": 0.5791666666666667
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<annotation>
+  <filename>orange_87.jpg</filename>
+  <size>
+    <width>462</width>
+    <height>450</height>
+  </size>
+  <object>
+    <name>orange</name>
+    <bndbox>
+      <xmin>20</xmin>
+      <ymin>216</ymin>
+      <xmax>173</xmax>
+      <ymax>371</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>orange</name>
+    <bndbox>
+      <xmin>107</xmin>
+      <ymin>160</ymin>
+      <xmax>244</xmax>
+      <ymax>310</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>orange</name>
+    <bndbox>
+      <xmin>263</xmin>
+      <ymin>166</ymin>
+      <xmax>415</xmax>
+      <ymax>307</ymax>
+    </bndbox>
+  </object>
+</annotation>

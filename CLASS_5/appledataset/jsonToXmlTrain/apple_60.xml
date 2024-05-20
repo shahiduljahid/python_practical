@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<annotation>
+  <filename>apple_60.jpg</filename>
+  <size>
+    <width>645</width>
+    <height>645</height>
+  </size>
+  <object>
+    <name>apple</name>
+    <bndbox>
+      <xmin>114</xmin>
+      <ymin>288</ymin>
+      <xmax>290</xmax>
+      <ymax>459</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>apple</name>
+    <bndbox>
+      <xmin>282</xmin>
+      <ymin>296</ymin>
+      <xmax>448</xmax>
+      <ymax>448</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>apple</name>
+    <bndbox>
+      <xmin>57</xmin>
+      <ymin>284</ymin>
+      <xmax>211</xmax>
+      <ymax>424</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>apple</name>
+    <bndbox>
+      <xmin>481</xmin>
+      <ymin>239</ymin>
+      <xmax>615</xmax>
+      <ymax>387</ymax>
+    </bndbox>
+  </object>
+</annotation>

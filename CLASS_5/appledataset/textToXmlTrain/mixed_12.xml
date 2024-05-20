@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotation><filename>mixed_12.jpg</filename><size><width>640</width><height>480</height><depth>3</depth></size><object><name>orange</name><bndbox><xmin>103</xmin><ymin>27</ymin><xmax>366</xmax><ymax>310</ymax></bndbox></object><object><name>banana</name><bndbox><xmin>24</xmin><ymin>217</ymin><xmax>616</xmax><ymax>445</ymax></bndbox></object><object><name>apple</name><bndbox><xmin>338</xmin><ymin>58</ymin><xmax>569</xmax><ymax>293</ymax></bndbox></object></annotation>

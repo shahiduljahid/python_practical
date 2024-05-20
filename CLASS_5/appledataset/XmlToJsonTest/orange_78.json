@@ -1,0 +1,14 @@
+{
+    "filename": "orange_78.jpg",
+    "width": 615,
+    "height": 297,
+    "objects": [
+        {
+            "class_name": "orange",
+            "x_center": 0.683739837398374,
+            "y_center": 0.5202020202020202,
+            "width": 0.46016260162601624,
+            "height": 0.9461279461279462
+        }
+    ]
+}

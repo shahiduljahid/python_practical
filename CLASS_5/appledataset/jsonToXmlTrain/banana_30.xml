@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<annotation>
+  <filename>banana_30.jpg</filename>
+  <size>
+    <width>444</width>
+    <height>354</height>
+  </size>
+  <object>
+    <name>banana</name>
+    <bndbox>
+      <xmin>16</xmin>
+      <ymin>154</ymin>
+      <xmax>436</xmax>
+      <ymax>348</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>banana</name>
+    <bndbox>
+      <xmin>108</xmin>
+      <ymin>91</ymin>
+      <xmax>430</xmax>
+      <ymax>227</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>banana</name>
+    <bndbox>
+      <xmin>114</xmin>
+      <ymin>36</ymin>
+      <xmax>389</xmax>
+      <ymax>171</ymax>
+    </bndbox>
+  </object>
+</annotation>

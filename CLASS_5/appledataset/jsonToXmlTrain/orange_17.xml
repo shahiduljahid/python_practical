@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<annotation>
+  <filename>orange_17.jpg</filename>
+  <size>
+    <width>1200</width>
+    <height>797</height>
+  </size>
+  <object>
+    <name>orange</name>
+    <bndbox>
+      <xmin>140</xmin>
+      <ymin>300</ymin>
+      <xmax>488</xmax>
+      <ymax>668</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>orange</name>
+    <bndbox>
+      <xmin>389</xmin>
+      <ymin>337</ymin>
+      <xmax>818</xmax>
+      <ymax>688</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>orange</name>
+    <bndbox>
+      <xmin>621</xmin>
+      <ymin>277</ymin>
+      <xmax>965</xmax>
+      <ymax>620</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>orange</name>
+    <bndbox>
+      <xmin>365</xmin>
+      <ymin>60</ymin>
+      <xmax>804</xmax>
+      <ymax>418</ymax>
+    </bndbox>
+  </object>
+</annotation>

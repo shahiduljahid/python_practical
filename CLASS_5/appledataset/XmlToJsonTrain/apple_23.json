@@ -1,0 +1,28 @@
+{
+    "filename": "apple_23.jpg",
+    "width": 500,
+    "height": 500,
+    "objects": [
+        {
+            "class_name": "apple",
+            "x_center": 0.483,
+            "y_center": 0.63,
+            "width": 0.378,
+            "height": 0.388
+        },
+        {
+            "class_name": "apple",
+            "x_center": 0.363,
+            "y_center": 0.447,
+            "width": 0.33,
+            "height": 0.37
+        },
+        {
+            "class_name": "apple",
+            "x_center": 0.639,
+            "y_center": 0.466,
+            "width": 0.338,
+            "height": 0.364
+        }
+    ]
+}

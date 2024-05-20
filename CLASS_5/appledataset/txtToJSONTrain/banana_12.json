@@ -1,0 +1,33 @@
+{
+    "filename": "banana_12",
+    "objects": [
+        {
+            "class_name": "banana",
+            "x_center": 0.4140625,
+            "y_center": 0.2346774193548387,
+            "width": 0.628125,
+            "height": 0.1435483870967742
+        },
+        {
+            "class_name": "banana",
+            "x_center": 0.4203125,
+            "y_center": 0.29838709677419356,
+            "width": 0.61875,
+            "height": 0.24516129032258063
+        },
+        {
+            "class_name": "banana",
+            "x_center": 0.43515625,
+            "y_center": 0.40241935483870966,
+            "width": 0.6203125,
+            "height": 0.3370967741935484
+        },
+        {
+            "class_name": "banana",
+            "x_center": 0.59140625,
+            "y_center": 0.4846774193548387,
+            "width": 0.5484375,
+            "height": 0.43709677419354837
+        }
+    ]
+}

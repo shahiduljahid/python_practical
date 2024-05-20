@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<annotation>
+  <filename>apple_32.jpg</filename>
+  <size>
+    <width>1320</width>
+    <height>947</height>
+  </size>
+  <object>
+    <name>apple</name>
+    <bndbox>
+      <xmin>553</xmin>
+      <ymin>119</ymin>
+      <xmax>1232</xmax>
+      <ymax>868</ymax>
+    </bndbox>
+  </object>
+</annotation>

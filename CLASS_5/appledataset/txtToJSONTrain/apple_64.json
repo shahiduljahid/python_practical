@@ -1,0 +1,12 @@
+{
+    "filename": "apple_64",
+    "objects": [
+        {
+            "class_name": "apple",
+            "x_center": 0.76875,
+            "y_center": 0.3671875,
+            "width": 0.4625,
+            "height": 0.496875
+        }
+    ]
+}

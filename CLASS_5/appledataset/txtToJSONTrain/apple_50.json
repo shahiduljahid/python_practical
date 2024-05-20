@@ -1,0 +1,26 @@
+{
+    "filename": "apple_50",
+    "objects": [
+        {
+            "class_name": "apple",
+            "x_center": 0.725,
+            "y_center": 0.5440528634361234,
+            "width": 0.47,
+            "height": 0.6916299559471366
+        },
+        {
+            "class_name": "apple",
+            "x_center": 0.3233333333333333,
+            "y_center": 0.41629955947136565,
+            "width": 0.34,
+            "height": 0.4801762114537445
+        },
+        {
+            "class_name": "apple",
+            "x_center": 0.4716666666666667,
+            "y_center": 0.7158590308370044,
+            "width": 0.37,
+            "height": 0.4801762114537445
+        }
+    ]
+}

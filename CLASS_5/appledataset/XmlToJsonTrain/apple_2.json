@@ -1,0 +1,14 @@
+{
+    "filename": "apple_2.jpg",
+    "width": 250,
+    "height": 250,
+    "objects": [
+        {
+            "class_name": "apple",
+            "x_center": 0.484,
+            "y_center": 0.548,
+            "width": 0.672,
+            "height": 0.68
+        }
+    ]
+}

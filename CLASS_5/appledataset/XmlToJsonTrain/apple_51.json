@@ -1,0 +1,14 @@
+{
+    "filename": "apple_51.jpg",
+    "width": 260,
+    "height": 295,
+    "objects": [
+        {
+            "class_name": "apple",
+            "x_center": 0.5230769230769231,
+            "y_center": 0.5389830508474577,
+            "width": 0.7153846153846154,
+            "height": 0.6169491525423729
+        }
+    ]
+}

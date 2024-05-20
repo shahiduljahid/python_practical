@@ -1,0 +1,14 @@
+{
+    "filename": "apple_82.jpg",
+    "width": 416,
+    "height": 470,
+    "objects": [
+        {
+            "class_name": "apple",
+            "x_center": 0.5168269230769231,
+            "y_center": 0.5595744680851064,
+            "width": 0.7211538461538461,
+            "height": 0.6
+        }
+    ]
+}

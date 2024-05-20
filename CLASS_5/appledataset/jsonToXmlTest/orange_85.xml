@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<annotation>
+  <filename>orange_85.jpg</filename>
+  <size>
+    <width>648</width>
+    <height>864</height>
+  </size>
+  <object>
+    <name>orange</name>
+    <bndbox>
+      <xmin>48</xmin>
+      <ymin>233</ymin>
+      <xmax>593</xmax>
+      <ymax>789</ymax>
+    </bndbox>
+  </object>
+</annotation>

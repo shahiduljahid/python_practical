@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<annotation>
+  <filename>banana_28.jpg</filename>
+  <size>
+    <width>1008</width>
+    <height>1008</height>
+  </size>
+  <object>
+    <name>banana</name>
+    <bndbox>
+      <xmin>40</xmin>
+      <ymin>260</ymin>
+      <xmax>943</xmax>
+      <ymax>738</ymax>
+    </bndbox>
+  </object>
+</annotation>

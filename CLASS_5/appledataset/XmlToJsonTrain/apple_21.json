@@ -1,0 +1,21 @@
+{
+    "filename": "apple_21.jpg",
+    "width": 640,
+    "height": 426,
+    "objects": [
+        {
+            "class_name": "apple",
+            "x_center": 0.34609375,
+            "y_center": 0.5938967136150235,
+            "width": 0.3890625,
+            "height": 0.5915492957746479
+        },
+        {
+            "class_name": "apple",
+            "x_center": 0.709375,
+            "y_center": 0.5833333333333334,
+            "width": 0.4375,
+            "height": 0.6408450704225352
+        }
+    ]
+}

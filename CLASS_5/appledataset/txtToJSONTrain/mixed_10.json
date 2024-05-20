@@ -1,0 +1,40 @@
+{
+    "filename": "mixed_10",
+    "objects": [
+        {
+            "class_name": "orange",
+            "x_center": 0.265,
+            "y_center": 0.6322701688555347,
+            "width": 0.205,
+            "height": 0.28142589118198874
+        },
+        {
+            "class_name": "apple",
+            "x_center": 0.314375,
+            "y_center": 0.26641651031894936,
+            "width": 0.23875,
+            "height": 0.3677298311444653
+        },
+        {
+            "class_name": "banana",
+            "x_center": 0.5,
+            "y_center": 0.43621013133208253,
+            "width": 0.1575,
+            "height": 0.726078799249531
+        },
+        {
+            "class_name": "banana",
+            "x_center": 0.63875,
+            "y_center": 0.6022514071294559,
+            "width": 0.33,
+            "height": 0.6153846153846154
+        },
+        {
+            "class_name": "banana",
+            "x_center": 0.58375,
+            "y_center": 0.424953095684803,
+            "width": 0.1925,
+            "height": 0.7073170731707317
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "filename": "mixed_25",
+    "objects": [
+        {
+            "class_name": "orange",
+            "x_center": 0.6988888888888889,
+            "y_center": 0.5515625,
+            "width": 0.3844444444444444,
+            "height": 0.584375
+        },
+        {
+            "class_name": "banana",
+            "x_center": 0.2511111111111111,
+            "y_center": 0.496875,
+            "width": 0.3111111111111111,
+            "height": 0.53125
+        },
+        {
+            "class_name": "apple",
+            "x_center": 0.45555555555555555,
+            "y_center": 0.4328125,
+            "width": 0.3422222222222222,
+            "height": 0.515625
+        }
+    ]
+}

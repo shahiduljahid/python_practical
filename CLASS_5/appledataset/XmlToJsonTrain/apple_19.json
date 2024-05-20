@@ -1,0 +1,14 @@
+{
+    "filename": "apple_19.jpg",
+    "width": 1600,
+    "height": 1200,
+    "objects": [
+        {
+            "class_name": "apple",
+            "x_center": 0.444375,
+            "y_center": 0.5245833333333333,
+            "width": 0.69125,
+            "height": 0.8558333333333333
+        }
+    ]
+}

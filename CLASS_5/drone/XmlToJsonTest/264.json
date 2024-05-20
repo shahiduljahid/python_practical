@@ -1,0 +1,14 @@
+{
+    "filename": "264.jpg",
+    "width": 640,
+    "height": 480,
+    "objects": [
+        {
+            "class_name": "0",
+            "x_center": 0.52265625,
+            "y_center": 0.24375,
+            "width": 0.1828125,
+            "height": 0.1125
+        }
+    ]
+}

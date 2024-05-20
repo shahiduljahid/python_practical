@@ -1,0 +1,28 @@
+{
+    "filename": "banana_27.jpg",
+    "width": 1600,
+    "height": 1205,
+    "objects": [
+        {
+            "class_name": "banana",
+            "x_center": 0.7015625,
+            "y_center": 0.6423236514522822,
+            "width": 0.596875,
+            "height": 0.5278008298755187
+        },
+        {
+            "class_name": "banana",
+            "x_center": 0.7559375,
+            "y_center": 0.75850622406639,
+            "width": 0.488125,
+            "height": 0.4215767634854772
+        },
+        {
+            "class_name": "banana",
+            "x_center": 0.431875,
+            "y_center": 0.504149377593361,
+            "width": 0.7375,
+            "height": 0.7244813278008299
+        }
+    ]
+}

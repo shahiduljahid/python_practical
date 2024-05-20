@@ -1,0 +1,56 @@
+{
+    "filename": "apple_46.jpg",
+    "width": 800,
+    "height": 600,
+    "objects": [
+        {
+            "class_name": "apple",
+            "x_center": 0.789375,
+            "y_center": 0.6508333333333334,
+            "width": 0.29125,
+            "height": 0.445
+        },
+        {
+            "class_name": "apple",
+            "x_center": 0.573125,
+            "y_center": 0.7616666666666667,
+            "width": 0.29875,
+            "height": 0.37333333333333335
+        },
+        {
+            "class_name": "apple",
+            "x_center": 0.14,
+            "y_center": 0.5916666666666667,
+            "width": 0.255,
+            "height": 0.38666666666666666
+        },
+        {
+            "class_name": "apple",
+            "x_center": 0.385,
+            "y_center": 0.4975,
+            "width": 0.2875,
+            "height": 0.35833333333333334
+        },
+        {
+            "class_name": "apple",
+            "x_center": 0.673125,
+            "y_center": 0.4191666666666667,
+            "width": 0.24125,
+            "height": 0.25166666666666665
+        },
+        {
+            "class_name": "apple",
+            "x_center": 0.52125,
+            "y_center": 0.19833333333333333,
+            "width": 0.29,
+            "height": 0.3233333333333333
+        },
+        {
+            "class_name": "apple",
+            "x_center": 0.771875,
+            "y_center": 0.22916666666666666,
+            "width": 0.20625,
+            "height": 0.275
+        }
+    ]
+}

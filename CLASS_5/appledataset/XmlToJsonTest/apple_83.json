@@ -1,0 +1,14 @@
+{
+    "filename": "apple_83.jpg",
+    "width": 800,
+    "height": 745,
+    "objects": [
+        {
+            "class_name": "apple",
+            "x_center": 0.496875,
+            "y_center": 0.4959731543624161,
+            "width": 0.99125,
+            "height": 0.9892617449664429
+        }
+    ]
+}

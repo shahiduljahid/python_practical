@@ -1,0 +1,12 @@
+{
+    "filename": "264",
+    "objects": [
+        {
+            "class_name": "drone",
+            "x_center": 0.52265625,
+            "y_center": 0.24375,
+            "width": 0.1828125,
+            "height": 0.1125
+        }
+    ]
+}

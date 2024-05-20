@@ -1,0 +1,12 @@
+{
+    "filename": "60",
+    "objects": [
+        {
+            "class_name": "drone",
+            "x_center": 0.29296875,
+            "y_center": 0.315625,
+            "width": 0.2265625,
+            "height": 0.24375
+        }
+    ]
+}

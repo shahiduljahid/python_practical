@@ -1,0 +1,12 @@
+{
+    "filename": "apple_72",
+    "objects": [
+        {
+            "class_name": "apple",
+            "x_center": 0.496,
+            "y_center": 0.59,
+            "width": 0.784,
+            "height": 0.732
+        }
+    ]
+}

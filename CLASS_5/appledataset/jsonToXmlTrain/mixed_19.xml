@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<annotation>
+  <filename>mixed_19.jpg</filename>
+  <size>
+    <width>300</width>
+    <height>279</height>
+  </size>
+  <object>
+    <name>orange</name>
+    <bndbox>
+      <xmin>4</xmin>
+      <ymin>158</ymin>
+      <xmax>85</xmax>
+      <ymax>247</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>orange</name>
+    <bndbox>
+      <xmin>71</xmin>
+      <ymin>156</ymin>
+      <xmax>144</xmax>
+      <ymax>231</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>banana</name>
+    <bndbox>
+      <xmin>44</xmin>
+      <ymin>41</ymin>
+      <xmax>274</xmax>
+      <ymax>138</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>apple</name>
+    <bndbox>
+      <xmin>191</xmin>
+      <ymin>177</ymin>
+      <xmax>285</xmax>
+      <ymax>268</ymax>
+    </bndbox>
+  </object>
+</annotation>

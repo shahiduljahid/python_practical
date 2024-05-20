@@ -1,0 +1,28 @@
+{
+    "filename": "mixed_11.jpg",
+    "width": 1024,
+    "height": 768,
+    "objects": [
+        {
+            "class_name": "orange",
+            "x_center": 0.5166015625,
+            "y_center": 0.4231770833333333,
+            "width": 0.3046875,
+            "height": 0.375
+        },
+        {
+            "class_name": "banana",
+            "x_center": 0.50537109375,
+            "y_center": 0.5611979166666666,
+            "width": 0.8056640625,
+            "height": 0.2552083333333333
+        },
+        {
+            "class_name": "banana",
+            "x_center": 0.52392578125,
+            "y_center": 0.7239583333333334,
+            "width": 0.8232421875,
+            "height": 0.2708333333333333
+        }
+    ]
+}

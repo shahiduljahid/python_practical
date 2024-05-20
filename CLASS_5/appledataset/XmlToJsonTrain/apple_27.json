@@ -1,0 +1,14 @@
+{
+    "filename": "apple_27.jpg",
+    "width": 700,
+    "height": 350,
+    "objects": [
+        {
+            "class_name": "apple",
+            "x_center": 0.33214285714285713,
+            "y_center": 0.5042857142857143,
+            "width": 0.5185714285714286,
+            "height": 0.9914285714285714
+        }
+    ]
+}

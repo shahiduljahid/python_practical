@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<annotation>
+  <filename>mixed_20.jpg</filename>
+  <size>
+    <width>350</width>
+    <height>306</height>
+  </size>
+  <object>
+    <name>orange</name>
+    <bndbox>
+      <xmin>50</xmin>
+      <ymin>24</ymin>
+      <xmax>303</xmax>
+      <ymax>284</ymax>
+    </bndbox>
+  </object>
+</annotation>

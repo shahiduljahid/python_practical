@@ -1,0 +1,14 @@
+{
+    "filename": "banana_45.jpg",
+    "width": 724,
+    "height": 780,
+    "objects": [
+        {
+            "class_name": "banana",
+            "x_center": 0.6015193370165746,
+            "y_center": 0.6096153846153847,
+            "width": 0.5013812154696132,
+            "height": 0.6269230769230769
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "filename": "295.jpg",
+    "width": 640,
+    "height": 480,
+    "objects": [
+        {
+            "class_name": "0",
+            "x_center": 0.1234375,
+            "y_center": 0.12708333333333333,
+            "width": 0.040625,
+            "height": 0.05
+        }
+    ]
+}

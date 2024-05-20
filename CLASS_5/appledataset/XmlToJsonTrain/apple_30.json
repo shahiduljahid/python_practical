@@ -1,0 +1,42 @@
+{
+    "filename": "apple_30.jpg",
+    "width": 800,
+    "height": 800,
+    "objects": [
+        {
+            "class_name": "apple",
+            "x_center": 0.5225,
+            "y_center": 0.40625,
+            "width": 0.41,
+            "height": 0.405
+        },
+        {
+            "class_name": "apple",
+            "x_center": 0.47,
+            "y_center": 0.725625,
+            "width": 0.3975,
+            "height": 0.33125
+        },
+        {
+            "class_name": "apple",
+            "x_center": 0.876875,
+            "y_center": 0.74125,
+            "width": 0.24625,
+            "height": 0.3075
+        },
+        {
+            "class_name": "apple",
+            "x_center": 0.746875,
+            "y_center": 0.40375,
+            "width": 0.32375,
+            "height": 0.36
+        },
+        {
+            "class_name": "apple",
+            "x_center": 0.193125,
+            "y_center": 0.298125,
+            "width": 0.38375,
+            "height": 0.43875
+        }
+    ]
+}

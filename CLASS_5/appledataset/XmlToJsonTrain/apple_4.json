@@ -1,0 +1,21 @@
+{
+    "filename": "apple_4.jpg",
+    "width": 351,
+    "height": 240,
+    "objects": [
+        {
+            "class_name": "apple",
+            "x_center": 0.6495726495726496,
+            "y_center": 0.5104166666666666,
+            "width": 0.49572649572649574,
+            "height": 0.7291666666666666
+        },
+        {
+            "class_name": "apple",
+            "x_center": 0.26495726495726496,
+            "y_center": 0.44166666666666665,
+            "width": 0.42735042735042733,
+            "height": 0.7
+        }
+    ]
+}

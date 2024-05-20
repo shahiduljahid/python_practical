@@ -1,0 +1,19 @@
+{
+    "filename": "banana_4",
+    "objects": [
+        {
+            "class_name": "banana",
+            "x_center": 0.4681818181818182,
+            "y_center": 0.656084656084656,
+            "width": 0.6254545454545455,
+            "height": 0.6878306878306878
+        },
+        {
+            "class_name": "banana",
+            "x_center": 0.19863636363636364,
+            "y_center": 0.656084656084656,
+            "width": 0.39,
+            "height": 0.6878306878306878
+        }
+    ]
+}
