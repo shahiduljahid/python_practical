@@ -1,13 +1,22 @@
 from ultralytics import YOLO
+from dotenv import load_dotenv
+import os
+# Load the environment variables from the .env file
+load_dotenv()
 
-model1 = YOLO('yolov8n.yaml').load('yolov8n.pt') # build from YAML and transfer weights
-#DATASET_PATH
-PATH1 = r'C:\Users\ADMIN\Desktop\Python_practical\pythonpa\dataset\drone.yaml'
-# Train the model
-results = model1.train(data=PATH1, epochs=20, imgsz=1000 ,batch=2)
+ # build from YAML and transfer weights
+model = YOLO('yolov8n.yaml').load('yolov8n.pt')
 
-model2 = YOLO('yolov8n.yaml').load('yolov8n.pt') # build from YAML and transfer weights
 #DATASET_PATH
-PATH2 = r'C:\Users\ADMIN\Desktop\Python_practical\CLASS_4\drone.yaml'
+DATASET = os.getenv('DATASET_FOLDER')
+
+#FIRST_DATASET TRAIN
+PATH1= os.path.join(DATASET+'drone.yaml')
 # Train the model
-results = model2.train(data=PATH2, epochs=20, imgsz=1000 ,batch=2)
+results = model.train(data=PATH1, epochs=1, imgsz=1000 ,batch=2)
+
+#SELF_ANNOTATED_DATASET TRAIN
+NEW_ANNOTATED_DATASET = os.getenv('SELF_ANNOTATED_DRONE_DATASET')
+PATH2= os.path.join(NEW_ANNOTATED_DATASET+'drone.yaml')
+# # Train the model
+results = model.train(data=PATH2, epochs=1, imgsz=1000 ,batch=2)
