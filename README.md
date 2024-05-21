@@ -199,8 +199,8 @@ To replicate the experiments, follow these installation steps:
    - Create a new file (e.g., `run_all.py`) that uses `subprocess.run()` to execute all the conversion scripts for different datasets.
    - Define the paths to the scripts in your `.env` file:
      ```
-     ANN_FOR_APPLE_DATASET=your/scripts/for/apple/dataset/path
-     ANN_FOR_DRONE_DATASET=your/scripts/for/drone/dataset/path
+     ANN_FOR_APPLE_DATASET=your/scripts/folder/path
+     ANN_FOR_DRONE_DATASET=your/scripts/folder/path
      ```
    - Use `subprocess.run()` to execute the scripts in the specified folders.
 
