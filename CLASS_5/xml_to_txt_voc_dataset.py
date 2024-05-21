@@ -1,5 +1,9 @@
 import xml.etree.ElementTree as ET
 import os
+from dotenv import load_dotenv
+
+# Load the environment variables from the .env file
+load_dotenv()
 
 VOC_CLASSES = (    # always index 0
     'aeroplane', 'bicycle', 'bird', 'boat',
@@ -28,9 +32,11 @@ def parse_rec(filename):
 
         return objects
     
-folder_path='C:\\Users\\ADMIN\\Desktop\\Python_practical\\DATASET\\VOCdevkit\\VOC2007\\'
+DATASET = os.getenv('VOC_DATASET')
+folder_path= DATASET
 
 txt_file_path =  os.path.join(folder_path+'voc2007test.txt')
+print(txt_file_path)
 txt_file = open(txt_file_path,'w')
 
 Annotations_folder_path = os.path.join(folder_path+'Annotations')

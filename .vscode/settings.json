@@ -3,6 +3,7 @@
     "appledataset",
     "AUTOTUNE",
     "cmap",
+    "dotenv",
     "imshow",
     "optim",
     "relu",
