@@ -82,7 +82,7 @@ def convert_json_to_xml(json_dir, output_dir):
             json_to_xml(json_path, output_dir)
 
 
-folder_path='C:\\Users\\ADMIN\\Desktop\\Python_practical\\CLASS_5\\appledataset\\'
+folder_path='C:\\Users\\ADMIN\\Desktop\\Python_practical\\DATASET\\appledataset\\'
 jsonToXmlTrainFolder = os.path.join(folder_path+'jsonToXmlTrain')
 jsonToXmlTestFolder = os.path.join(folder_path+'jsonToXmlTest')
 

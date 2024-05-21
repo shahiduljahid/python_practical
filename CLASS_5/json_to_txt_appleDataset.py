@@ -49,7 +49,7 @@ def convert_json_to_yolo(json_dir, output_dir):
 
 # ... (rest of your code)
 
-folder_path = 'C:\\Users\\ADMIN\\Desktop\\Python_practical\\CLASS_5\\appledataset\\'
+folder_path = 'C:\\Users\\ADMIN\\Desktop\\Python_practical\\DATASET\\appledataset\\'
 jsonToTxtTrainFolder = os.path.join(folder_path + 'jsonToTextTrain')
 jsonToTxtTestFolder = os.path.join(folder_path + 'jsonToTextTest')
 

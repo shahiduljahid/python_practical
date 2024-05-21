@@ -64,7 +64,7 @@ def convert_xml_to_json(xml_dir, output_dir):
             xml_path = os.path.join(xml_dir, xml_file)
             xml_to_json(xml_path, output_dir)
 
-folder_path='C:\\Users\\ADMIN\\Desktop\\Python_practical\\CLASS_5\\drone\\'
+folder_path='C:\\Users\\ADMIN\\Desktop\\Python_practical\\DATASET\\drone\\'
 xmlToJsonTrainFolder = os.path.join(folder_path+'XmlToJsonTrain')
 xmlToJsonTestFolder = os.path.join(folder_path+'XmlToJsonTest')
 

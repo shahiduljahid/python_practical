@@ -28,7 +28,7 @@ def parse_rec(filename):
 
         return objects
     
-folder_path='C:\\Users\\ADMIN\\Desktop\\Python_practical\\CLASS_5\\VOCdevkit\\VOC2007\\'
+folder_path='C:\\Users\\ADMIN\\Desktop\\Python_practical\\DATASET\\VOCdevkit\\VOC2007\\'
 
 txt_file_path =  os.path.join(folder_path+'voc2007test.txt')
 txt_file = open(txt_file_path,'w')

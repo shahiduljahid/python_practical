@@ -52,7 +52,7 @@ def convert_xml_to_yolo(xml_dir, output_dir):
             xml_to_yolo(xml_path, output_dir)
 
 
-folder_path='C:\\Users\\ADMIN\\Desktop\\Python_practical\\CLASS_5\\appledataset\\'
+folder_path='C:\\Users\\ADMIN\\Desktop\\Python_practical\\DATASET\\appledataset\\'
 xmlToTxtTrainFolder = os.path.join(folder_path+'xmlToTxtTrain')
 xmlToTxtTestFolder = os.path.join(folder_path+'xmlToTxtTest')
 

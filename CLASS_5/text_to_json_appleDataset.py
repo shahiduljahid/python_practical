@@ -77,7 +77,7 @@ def convert_yolo_txt_to_json(txt_dir, output_dir):
             yolo_txt_to_json(txt_path, output_dir)
 
 # Example usage:
-folder_path = 'C:\\Users\\ADMIN\\Desktop\\Python_practical\\CLASS_5\\appledataset\\'
+folder_path = 'C:\\Users\\ADMIN\\Desktop\\Python_practical\\DATASET\\appledataset\\'
 txtToJSONTrainFolder = os.path.join(folder_path + 'txtToJSONTrain')
 txtToJSONTestFolder = os.path.join(folder_path + 'txtToJSONTest')
 

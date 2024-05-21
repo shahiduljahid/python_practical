@@ -65,7 +65,7 @@ class_name = ["apple"]
 img_width = 640  # Example value, replace with actual width
 img_height = 480  # Example value, replace with actual height
 
-folder_path='C:\\Users\\ADMIN\\Desktop\\Python_practical\\CLASS_5\\appledataset\\'
+folder_path='C:\\Users\\ADMIN\\Desktop\\Python_practical\\DATASET\\appledataset\\'
 textToXmlTrainFolder = os.path.join(folder_path+'textToXmlTrain')
 txtToXmlTestFolder = os.path.join(folder_path+'textToXmlTest')
 

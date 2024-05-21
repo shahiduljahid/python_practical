@@ -60,7 +60,7 @@ def convert_json_to_yolo(json_dir, img_dir, output_dir):
 
 # ... (rest of your code)
 
-folder_path='C:\\Users\\ADMIN\\Desktop\\Python_practical\\CLASS_5\\drone\\'
+folder_path='C:\\Users\\ADMIN\\Desktop\\Python_practical\\DATASET\\drone\\'
 jsonToTxtTrainFolder = os.path.join(folder_path+'jsonToTextTrain')
 jsonToTxtTestFolder = os.path.join(folder_path+'jsonToTextTest')
 
