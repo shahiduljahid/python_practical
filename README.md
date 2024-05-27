@@ -1,51 +1,60 @@
-# Python Practical Programming Experiment Reports
+## Python Practical Programming Experiment Reports 📚🚀
 
 This repository contains reports for two experiments conducted in the Python Practical Programming course.
 
-## Experiment 1: Installing Python and PyCharm
+### Initial Setup 🛠️
 
-This report details the process of setting up a Python programming environment. It covers the following topics:
+**Create .env File:**
 
-- Installing Anaconda for Windows
-- Installing PyCharm IDE
-- Creating a new Python project in PyCharm
-- Opening an existing Python project in PyCharm
-- Packaging Python programs using conda
+- Create a `.env` file and store your dataset paths like this:
 
-**Key Learnings:**
+DATASET_FOLDER=
+APPLE_DATASET=
+APPLE_DATASET_WITH_IMG=
+DRONE_DATASET=
+VOC_DATASET=
+ANN_FOR_APPLE_DATASET=
+ANN_FOR_DRONE_DATASET=
+SELF_ANNOTATED_DRONE_DATASET=
+MODEL_FOLDER_PATH=
 
-- Understanding the importance of setting up a dedicated Python environment using Anaconda.
-- Familiarization with PyCharm IDE for streamlined code development.
-- Introduction to basic Python concepts and problem-solving.
+**Dataset & Models:**
 
-## Experiment 2: Installing Python Platforms and Object Detection with YOLOv8
+- You can download the class work dataset and models from [this git repo](https://github.com/shahiduljahid/DATASET_AND_MODELS)
+- Use these models to test your code and explore their parameters.
 
-This report explores the installation and utilization of various deep learning platforms, focusing on object detection using YOLOv8. It covers:
+### Experiment 1: Installing Python and PyCharm 🐍💻
 
-- Installing PyTorch for Windows
-- Installing PaddlePaddle for Windows
-- Installing TensorFlow for Windows
+**Install PyCharm:**
+
+- Download the PyCharm Community Edition installer from [https://www.jetbrains.com/pycharm/download/](https://www.jetbrains.com/pycharm/download/).
+- Follow the installation instructions on the website.
+
+### Experiment 2: Installing Python Platforms and Object Detection with YOLOv8 🧠🤖
+
+This report delves into installing and using various deep learning platforms, focusing on object detection using YOLOv8. We'll cover:
+
+- Installing PyTorch for Windows 🪟
+- Installing PaddlePaddle for Windows 🪟
+- Installing TensorFlow for Windows 🪟
 - Building and training a YOLOv8 object detection model with PyTorch
 - Experimenting with different YOLO models and batch sizes
 
 **Key Learnings:**
 
 - Setting up popular deep learning frameworks (PyTorch, PaddlePaddle, TensorFlow) on Windows.
-- Understanding the concept of object detection and its application with drone imagery.
-- Building, training, and evaluating YOLOv8 models using the Ultralytics library.
-- Exploring the impact of different model configurations and batch sizes on performance.
+- Understanding the concept of object detection and its application with drone imagery 🚁
+- Building, training, and evaluating YOLOv8 models using the Ultralytics library
+- Exploring the impact of different model configurations and batch sizes on performance 📈
 
-## Installation Instructions
+### Installation Instructions 🛠️
 
 To replicate the experiments, follow these installation steps:
 
 1. **Install Anaconda:**
-
-   - Download the Anaconda installer for Windows from the official website: [https://www.anaconda.com/products/distribution](https://www.anaconda.com/products/distribution).
-   - Follow the installation instructions provided on the website.
-
+   - Download the Anaconda installer for Windows from [https://www.anaconda.com/products/distribution](https://www.anaconda.com/products/distribution).
+   - Follow the installation instructions on the website.
 2. **Create a Conda Environment:**
-
    - Open Anaconda Prompt.
    - Create a new environment named "CLASS_WORK":
      ```bash
@@ -55,14 +64,7 @@ To replicate the experiments, follow these installation steps:
      ```bash
      conda activate CLASS_WORK
      ```
-
-3. **Install PyCharm:**
-
-   - Download the PyCharm Community Edition installer from: [https://www.jetbrains.com/pycharm/download/](https://www.jetbrains.com/pycharm/download/).
-   - Follow the installation instructions provided on the website.
-
-4. **Install Required Libraries (within the "CLASS_WORK" environment):**
-
+3. **Install Required Libraries (within the "CLASS_WORK" environment):**
    - PyTorch:
      ```bash
      conda install pytorch torchvision torchaudio cpuonly -c pytorch
@@ -79,11 +81,10 @@ To replicate the experiments, follow these installation steps:
      ```bash
      pip install ultralytics
      ```
-
-5. **Prepare Dataset:**
+4. **Prepare Dataset:**
    - Organize your dataset of drone images and create a YAML file (e.g., `drone.yaml`) defining the dataset's structure and classes. Place this file within your project directory.
 
-## Class 2: Object Detection with YOLO and Drone Data
+### Class 2: Object Detection with YOLO and Drone Data 🚁
 
 **Objective:** Learn object detection using YOLO with drone data.
 
@@ -94,17 +95,15 @@ To replicate the experiments, follow these installation steps:
 **Steps:**
 
 1. **Load and Explore Data:**
-   - Load the drone dataset into your chosen YOLO framework (e.g., Darknet, YOLOv5).
+   - Load the drone dataset into your chosen YOLO framework (e.g. YOLOv8).
    - Explore the dataset structure, image formats, and annotations.
 2. **Train a YOLO Model:**
    - Train a YOLO model using the drone dataset.
-   - Experiment with different model configurations (e.g., YOLOv3, YOLOv5).
-   - Adjust hyperparameters for optimal performance.
 3. **Evaluate Model Performance:**
    - Evaluate the trained YOLO model on a separate validation set.
    - Analyze metrics like precision, recall, and mAP (mean Average Precision).
 
-## Class 3: Neural Networks with PyTorch, PaddlePaddle, and TensorFlow
+### Class 3: Neural Networks with PyTorch, PaddlePaddle, and TensorFlow 🧠
 
 **Objective:** Learn about neural networks and their implementations using PyTorch, PaddlePaddle, and TensorFlow.
 
@@ -124,7 +123,7 @@ To replicate the experiments, follow these installation steps:
    - Explore more advanced concepts like convolutional neural networks (CNNs) and recurrent neural networks (RNNs).
    - Implement and train these advanced architectures on the MNIST dataset.
 
-## Class 4: Building a Custom Annotated Dataset and Comparing Models
+### Class 4: Building a Custom Annotated Dataset and Comparing Models 🛠️
 
 **Objective:** Create a custom annotated dataset and compare YOLO models trained on different datasets.
 
@@ -160,17 +159,16 @@ To replicate the experiments, follow these installation steps:
      ```bash
      pip install dotenv
      ```
-8. **Create .env File:**
-   - Create a `.env` file and add the following lines:
-     ```
-     DATASET_FOLDER=your/dataset/path
-     SELF_ANNOTATED_DRONE_DATASET=your/annotated/dataset/path
-     ```
+8. **Create Folder Path in .env File:**
+   ```
+   DATASET_FOLDER=your/dataset/path
+   SELF_ANNOTATED_DRONE_DATASET=your/annotated/dataset/path
+   ```
    - Replace `your/dataset/path` and `your/annotated/dataset/path` with the actual paths to your datasets.
 9. **Update YAML Files:**
    - Update the paths in the relevant YAML files (`drone.yaml` or similar) to match the paths defined in your `.env` file.
 
-## Class 5: Data Format Conversion and Script Automation
+### Class 5: Data Format Conversion and Script Automation 🤖
 
 **Objective:** Learn how to convert annotation formats and automate script execution.
 
@@ -180,13 +178,13 @@ To replicate the experiments, follow these installation steps:
    - Learn how to convert annotations between different formats (e.g., XML to TXT, JSON to XML).
    - Create scripts for each conversion type.
 2. **Define Dataset Locations:**
-   - Use environment variables in your `.env` file to define locations for your datasets:
-     ```
-     DATASET_FOLDER=your/dataset/path
-     APPLE_DATASET=your/apple/dataset/path
-     DRONE_DATASET=your/drone/dataset/path
-     VOC_DATASET=your/voc/dataset/path
-     ```
+   -define locations for your datasets:
+   ```
+   DATASET_FOLDER=your/dataset/path
+   APPLE_DATASET=your/apple/dataset/path
+   DRONE_DATASET=your/drone/dataset/path
+   VOC_DATASET=your/voc/dataset/path
+   ```
 3. **Create New Folders for Annotated Data:**
    - Create new folders for each dataset, containing the annotations converted to the desired format.
    - Use Python scripts to process and convert annotations from the original format to the new format.
