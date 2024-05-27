@@ -292,7 +292,7 @@ Running the code will generate output files in an "output" folder.
 
 - **Environment Variables:** Carefully set the necessary environment variables in your `.env` file.
 - **Pre-trained Models:** Make sure the `MODEL_FOLDER_PATH` points to the correct location of your downloaded model if you want to use a pre-trained model.
-- **Output Folder:** The results will be saved in an "output" folder after running the code.
-  **Note:** This is a comprehensive outline of the class content. You can adjust the specific topics and tasks based on your needs and the level of the students.
+
+**Note:** This is a comprehensive outline of the class content. You can adjust the specific topics and tasks based on your needs and the level of the students.
 
 You are now ready to run the code examples and experiment with different configurations as described in the reports.
