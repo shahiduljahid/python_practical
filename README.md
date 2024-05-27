@@ -7,20 +7,28 @@ This repository contains reports for two experiments conducted in the Python Pra
 **Create .env File:**
 
 - Create a `.env` file and store your dataset paths like this:
+  **Install dotenv:**
+- Install the dotenv library to manage environment variables:
 
-- DATASET_FOLDER=
-- APPLE_DATASET=
-- APPLE_DATASET_WITH_IMG=
-- DRONE_DATASET=
-- VOC_DATASET=
-- ANN_FOR_APPLE_DATASET=
-- ANN_FOR_DRONE_DATASET=
-- SELF_ANNOTATED_DRONE_DATASET=
-- MODEL_FOLDER_PATH=
+```bash
+pip install dotenv
+```
 
-**Dataset & Models:**
+```
+DATASET_FOLDER=
+APPLE_DATASET=
+APPLE_DATASET_WITH_IMG=
+DRONE_DATASET=
+VOC_DATASET=
+ANN_FOR_APPLE_DATASET=
+ANN_FOR_DRONE_DATASET=
+SELF_ANNOTATED_DRONE_DATASET=
+MODEL_FOLDER_PATH=
+```
 
-- You can download the class work dataset and models from [this git repo](https://github.com/shahiduljahid/DATASET_AND_MODELS)
+### Dataset & Models:
+
+- [DOWNLOAD DATASETS AND MODELS ](https://github.com/shahiduljahid/DATASET_AND_MODELS)
 - Use these models to test your code and explore their parameters.
 
 ### Experiment 1: Installing Python and PyCharm 🐍💻
@@ -34,9 +42,9 @@ This repository contains reports for two experiments conducted in the Python Pra
 
 This report delves into installing and using various deep learning platforms, focusing on object detection using YOLOv8. We'll cover:
 
-- Installing PyTorch for Windows 🪟
-- Installing PaddlePaddle for Windows 🪟
-- Installing TensorFlow for Windows 🪟
+- Installing PyTorch for Windows
+- Installing PaddlePaddle for Windows
+- Installing TensorFlow for Windows
 - Building and training a YOLOv8 object detection model with PyTorch
 - Experimenting with different YOLO models and batch sizes
 
@@ -154,18 +162,16 @@ To replicate the experiments, follow these installation steps:
 6. **Compare Model Performance:**
    - Evaluate both models and compare their performance.
    - Analyze the differences in performance based on the training data.
-7. **Install dotenv:**
-   - Install the dotenv library to manage environment variables:
-     ```bash
-     pip install dotenv
-     ```
-8. **Create Folder Path in .env File:**
+7. **Create Folder Path in .env File:**
+
    ```
    DATASET_FOLDER=your/dataset/path
    SELF_ANNOTATED_DRONE_DATASET=your/annotated/dataset/path
    ```
+
    - Replace `your/dataset/path` and `your/annotated/dataset/path` with the actual paths to your datasets.
-9. **Update YAML Files:**
+
+8. **Update YAML Files:**
    - Update the paths in the relevant YAML files (`drone.yaml` or similar) to match the paths defined in your `.env` file.
 
 ### Class 5: Data Format Conversion and Script Automation 🤖
@@ -194,14 +200,99 @@ To replicate the experiments, follow these installation steps:
      pip install subprocess
      ```
 5. **Create a Run All File:**
-   - Create a new file (e.g., `run_all.py`) that uses `subprocess.run()` to execute all the conversion scripts for different datasets.
+   - To run all the script at a time files like (e.g., run_all_APPLE_DATASET ) .
    - Define the paths to the scripts in your `.env` file:
      ```
      ANN_FOR_APPLE_DATASET=your/scripts/folder/path
      ANN_FOR_DRONE_DATASET=your/scripts/folder/path
      ```
-   - Use `subprocess.run()` to execute the scripts in the specified folders.
 
-**Note:** This is a comprehensive outline of the class content. You can adjust the specific topics and tasks based on your needs and the level of the students.
+## Class 6: Convolutional Neural Networks (CNNs) and YOLOv1 🍎🧠
+
+**Objective:** Learn about Convolutional Neural Networks (CNNs) and implement a YOLOv1 model for fruit detection.
+
+**Dataset:**
+
+- Use the `Apple Dataset with Images` (`./appledataset_with_img/`) located in the [dataset repository](https://github.com/shahiduljahid/DATASET_AND_MODELS).
+
+**Model:**
+
+- **Download:** A pre-trained YOLOv1 model for this dataset is available in the [dataset repository](https://github.com/shahiduljahid/DATASET_AND_MODELS) as "Model 1".
+- **Train your own:** You can also train your own model. Follow the steps below:
+
+**Setup:**
+
+1. **Install `scikit-image`:**
+   ```bash
+   pip install scikit-image
+   ```
+
+## Set Environment Variables:
+
+In your `.env` file, ensure these keys are defined:
+
+- **`APPLE_DATASET_WITH_IMG`**: Set to the path of the `Apple Dataset with Images` (`./appledataset_with_img/`).
+- **`MODEL_FOLDER_PATH`**: Set to the path where you want to save your trained model (or where you downloaded the pre-trained model).
+
+## Choose Device:
+
+The code is set up for CPU (`DEVICE = "cpu"`). If you have a CUDA-enabled GPU, change it to `DEVICE = "cuda"`.
+
+## Training:
+
+### Training Section:
+
+The code will have a section marked as:
+
+```
+#MODEL TRAINING AND SAVING PART START
+.
+.
+code
+.
+.
+#MODEL TRAINING AND SAVING PART FINISH
+```
+
+### Comment Training Code:
+
+To use the pre-trained model, comment out the code between the "MODEL TRAINING AND SAVING PART START" and "MODEL TRAINING AND SAVING PART FINISH" markers.
+
+## Running the Code:
+
+Running the code will generate output files in an "output" folder.
+
+## Class 7: Fast R-CNN for Fruit Detection 🍎🧠
+
+**Objective:** Learn about Fast R-CNN and implement it for fruit detection.
+
+**Dataset:**
+
+- Same as Class 6: Use the `Apple Dataset with Images` located in the [dataset repository](https://github.com/shahiduljahid/DATASET_AND_MODELS).
+
+**Model:**
+
+- **Download:** A pre-trained Fast R-CNN model for this dataset is available in the [dataset repository](https://github.com/shahiduljahid/DATASET_AND_MODELS) as "Model 2".
+- **Train your own:** You can also train your own model.
+
+**Setup:**
+
+- No additional setup required if you've completed Class 6. The environment variables and installation steps are the same.
+
+**Training:**
+
+- Similar to Class 6, you can train a Fast R-CNN model from scratch.
+- Use the same commenting approach to skip training and use the pre-trained model.
+
+**Running the Code:**
+
+- Running the code will generate output files in an "output" folder.
+
+**Key Points:**
+
+- **Environment Variables:** Carefully set the necessary environment variables in your `.env` file.
+- **Pre-trained Models:** Make sure the `MODEL_FOLDER_PATH` points to the correct location of your downloaded model if you want to use a pre-trained model.
+- **Output Folder:** The results will be saved in an "output" folder after running the code.
+  **Note:** This is a comprehensive outline of the class content. You can adjust the specific topics and tasks based on your needs and the level of the students.
 
 You are now ready to run the code examples and experiment with different configurations as described in the reports.
