@@ -1,7 +1,0 @@
-path: C:\\Users\\ADMIN\\Desktop\\Python_practical\\DATASET\\drone
-train: train
-val: train
-test: test
-
-names:
-  0: drone
