@@ -1,5 +1,6 @@
 {
   "cSpell.words": [
+    "albumentations",
     "appledataset",
     "AUTOTUNE",
     "cmap",
@@ -9,6 +10,7 @@
     "relu",
     "tfds",
     "torchvision",
+    "unet",
     "Yolo"
   ],
   "editor.defaultFormatter": "esbenp.prettier-vscode",
