@@ -217,7 +217,7 @@ To replicate the experiments, follow these installation steps:
 
 **Model:**
 
-- **Download:** A pre-trained YOLOv1 model for this dataset is available in the [dataset repository](https://github.com/shahiduljahid/DATASET_AND_MODELS) as "Model 1".
+- **Download:** A trained YOLOv1 model for this dataset is available in the [dataset repository](https://github.com/shahiduljahid/DATASET_AND_MODELS) as "Model 1".
 - **Train your own:** You can also train your own model. Follow the steps below:
 
 **Setup:**
@@ -232,7 +232,7 @@ To replicate the experiments, follow these installation steps:
 In your `.env` file, ensure these keys are defined:
 
 - **`APPLE_DATASET_WITH_IMG`**: Set to the path of the `Apple Dataset with Images` (`./appledataset_with_img/`).
-- **`MODEL_FOLDER_PATH`**: Set to the path where you want to save your trained model (or where you downloaded the pre-trained model).
+- **`MODEL_FOLDER_PATH`**: Set to the path where you want to save your trained model (or where you downloaded the trained model).
 
 ## Choose Device:
 
@@ -256,7 +256,7 @@ code
 
 ### Comment Training Code:
 
-To use the pre-trained model, comment out the code between the "MODEL TRAINING AND SAVING PART START" and "MODEL TRAINING AND SAVING PART FINISH" markers.
+To use the trained model, comment out the code between the "MODEL TRAINING AND SAVING PART START" and "MODEL TRAINING AND SAVING PART FINISH" markers.
 
 ## Running the Code:
 
@@ -272,7 +272,7 @@ Running the code will generate output files in an "output" folder.
 
 **Model:**
 
-- **Download:** A pre-trained Fast R-CNN model for this dataset is available in the [dataset repository](https://github.com/shahiduljahid/DATASET_AND_MODELS) as "Model 2".
+- **Download:** A trained Fast R-CNN model for this dataset is available in the [dataset repository](https://github.com/shahiduljahid/DATASET_AND_MODELS) as "Model 2".
 - **Train your own:** You can also train your own model.
 
 **Setup:**
@@ -282,7 +282,7 @@ Running the code will generate output files in an "output" folder.
 **Training:**
 
 - Similar to Class 6, you can train a Fast R-CNN model from scratch.
-- Use the same commenting approach to skip training and use the pre-trained model.
+- Use the same commenting approach to skip training and use the trained model.
 
 **Running the Code:**
 
@@ -291,7 +291,172 @@ Running the code will generate output files in an "output" folder.
 **Key Points:**
 
 - **Environment Variables:** Carefully set the necessary environment variables in your `.env` file.
-- **Pre-trained Models:** Make sure the `MODEL_FOLDER_PATH` points to the correct location of your downloaded model if you want to use a pre-trained model.
+- **trained Models:** Make sure the `MODEL_FOLDER_PATH` points to the correct location of your downloaded model if you want to use a trained model.
+
+## Class 8: Jupyter for IMAGE SEGMENTATION
+
+**Objective:** 🧑‍🏫 Learn about Jupyter and SEGMENTATION
+
+**Dataset:**
+
+- Use the `FOOTBALL Dataset` located in the [dataset repository](https://github.com/shahiduljahid/DATASET_AND_MODELS).
+- Use the `CITYSCAPE Dataset` located in the [dataset repository](https://github.com/shahiduljahid/DATASET_AND_MODELS).
+
+### **Model 3: Football model with FOOTBALL Dataset** ⚽
+
+- **Download:** A trained football model for this dataset is available in the [dataset repository](https://github.com/shahiduljahid/DATASET_AND_MODELS) as `Model 3`.
+- **Train your own:** You can also train your own model.
+
+**Setup:**
+
+### Set Environment Variables:
+
+In your `.env` file, ensure these keys are defined:
+
+- **`FOOTBALL_DATASET`**: Set to the path of the `FOOTBALL_DATASET`.
+- **`MODEL_FOLDER_PATH`**: Set to the path where you want to save your trained model (or where you downloaded the trained model).
+
+### Choose Device:
+
+The code is set up for CPU (`DEVICE = "cpu"`). If you have a CUDA-enabled GPU, change it to `DEVICE = "cuda"`.
+
+### Training:
+
+#### Training Section:
+
+The code will have a section marked as:
+
+```
+#MODEL TRAINING AND SAVING PART START
+.
+.
+code
+.
+.
+#MODEL TRAINING AND SAVING PART FINISH
+```
+
+```
+#MODEL TRAINING PLOT START
+.
+.
+code
+.
+.
+#MODEL TRAINING PLOT FINISH
+```
+
+#### Comment Training AND PLOT Code:
+
+To use the trained model, comment out the code between the `MODEL TRAINING AND SAVING PART START` and `MODEL TRAINING AND SAVING PART FINISH` markers. Also comment out the code between the `MODEL TRAINING PLOT START` and `MODEL TRAINING PLOT FINISH` markers.
+
+### Running the Code:
+
+Running the code will generate output files in an `output/football` folder.
+
+### **Model 4: Unet1 model with CITYSCAPE Dataset** 🌆
+
+- **Download:** A trained Unet1 model trained on cityscape data is available in the [dataset repository](https://github.com/shahiduljahid/DATASET_AND_MODELS) as `Model 4`.
+- **Train your own:** You can also train your own model.
+
+**Setup:**
+
+### Set Environment Variables:
+
+In your `.env` file, ensure these keys are defined:
+
+- **`CITY_SCAPES_DATASET`**: Set to the path of the `CITY_SCAPES_DATASET`.
+- **`MODEL_FOLDER_PATH`**: Set to the path where you want to save your trained model (or where you downloaded the trained model).
+
+### Choose Device:
+
+The code is set up for CPU (`DEVICE = "cpu"`). If you have a CUDA-enabled GPU, change it to `DEVICE = "cuda"`.
+
+### Training:
+
+#### Training Section:
+
+The code will have a section marked as:
+
+```
+#MODEL TRAINING AND SAVING PART START
+.
+.
+code
+.
+.
+#MODEL TRAINING AND SAVING PART FINISH
+```
+
+```
+#MODEL TRAINING PLOT START
+.
+.
+code
+.
+.
+#MODEL TRAINING PLOT FINISH
+```
+
+#### Comment Training AND PLOT Code:
+
+To use the trained model, comment out the code between the `MODEL TRAINING AND SAVING PART START` and `MODEL TRAINING AND SAVING PART FINISH` markers. Also comment out the code between the `MODEL TRAINING PLOT START` and `MODEL TRAINING PLOT FINISH` markers.
+
+### Running the Code:
+
+Running the code will generate output files in an `output/city_unet1` folder.
+
+### **Model 5: 6 Different models with CITYSCAPE Dataset** 🌆
+
+- **Download:** `6 model` trained on cityscape data is available in the [dataset repository](https://github.com/shahiduljahid/DATASET_AND_MODELS) as `Model 5`.
+- **Train your own:** You can also train your own model.
+
+**Setup:**
+
+### Set Environment Variables:
+
+In your `.env` file, ensure these keys are defined:
+
+- **`CITY_SCAPES_DATASET`**: Set to the path of the `CITY_SCAPES_DATASET`.
+- **`MODEL_FOLDER_PATH`**: Set to the path where you want to save your trained model (or where you downloaded the trained model).
+
+### Choose Device:
+
+The code is set up for CPU (`DEVICE = "cpu"`). If you have a CUDA-enabled GPU, change it to `DEVICE = "cuda"`.
+
+### Training:
+
+#### Training Section:
+
+The code will have a section marked as:
+
+```
+#MODEL TRAINING AND SAVING PART START
+.
+.
+code
+.
+.
+#MODEL TRAINING AND SAVING PART FINISH
+```
+
+```
+#MODEL TRAINING PLOT START
+.
+.
+code
+.
+.
+#MODEL TRAINING PLOT FINISH
+```
+
+#### Comment Training AND PLOT Code:
+
+To use the trained model, comment out the code between the `MODEL TRAINING AND SAVING PART START` and `MODEL TRAINING AND SAVING PART FINISH` markers. Also comment out the code between the `MODEL TRAINING PLOT START` and `MODEL TRAINING PLOT FINISH` markers.
+
+### Running the Code:
+
+Running the code will generate output files in an `output/city6_models` folder.
 
 **Note:** This is a comprehensive outline of the class content. You can adjust the specific topics and tasks based on your needs and the level of the students.
 
