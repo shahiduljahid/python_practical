@@ -5,6 +5,7 @@
     "AUTOTUNE",
     "cmap",
     "dotenv",
+    "imread",
     "imshow",
     "optim",
     "relu",
