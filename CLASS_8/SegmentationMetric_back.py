@@ -44,7 +44,7 @@ class SegmentationMetric(object):
     def genConfusionMatrix(self, imgPredict, imgLabel): # 同FCN中score.py的fast_hist()函数
         # remove classes from unlabeled pixels in gt image and predict
         mask = (imgLabel >= 0) & (imgLabel < self.numClass)
-        label = self.numClass * imgLabel[mask] + imgPredict[mask]
+        label = self.numClass * imgLabel[mask].astype(int) + imgPredict[mask].astype(int)
         count = np.bincount(label, minlength=self.numClass**2)
         confusionMatrix = count.reshape(self.numClass, self.numClass)
         return confusionMatrix
