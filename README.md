@@ -11,7 +11,7 @@ This repository contains reports for two experiments conducted in the Python Pra
 - Install the dotenv library to manage environment variables:
 
 ```bash
-pip install dotenv
+pip install python-dotenv
 ```
 
 ```
