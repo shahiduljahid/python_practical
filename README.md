@@ -1,6 +1,6 @@
 ## Python Practical Programming Experiment Reports 📚🚀
 
-This repository contains reports for two experiments conducted in the Python Practical Programming course.
+This repository contains reports for experiments conducted in the Python Practical Programming course.
 
 ### Initial Setup 🛠️
 
